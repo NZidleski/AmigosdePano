@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    flex-flow:row wrap;
+    height: 600px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.header h1 {
+    color: #9d5d6c;
+}
+
+.header h2 {
+    color: black;
+    font-size: 25px;
+
+}
+
+.headline {
+    flex: 45%;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.img-headline {
+    margin-top: 40px;
+    flex: 45%;
+    align-items: center;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.secao {
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+    margin-top: -20%;
+}
+
+.secao h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Amatic SC", sans-serif;
+    color: #9d5d6c;
+}
+
+.profiles {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.cartas {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #9d5d6c;
+}
+
+.cartas h3{
+    font-family: "Amatic SC", sans-serif;
+    color: #9d5d6c;
+    font-size: 20px;
+}
+
+.motivos {
+    display: flex;
+    flex-flow:row wrap;
+    height: 600px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.motivos h2 {
+    color: #9d5d6c;
+    font-size: 40px;
+}
+
+.motivos h3 {
+    font-size: 20px;
+}
+
+.textoprimario {
+    flex: 45%;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.img-motivos {
+    margin-top: 40px;
+    flex: 45%;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}

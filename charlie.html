@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="product-image">
+        <img src="img/Charlie.jpg" alt="Imagem do Produto">
+    </div>
+    <div class="product-details">
+        <div>
+            <h1 class="product-title">Nome</h1>
+            <p class="product-description" style="font-size: 25px;">
+                Aqui vai uma descrição detalhada do produto. Pode incluir informações sobre o material, tamanho, características especiais, etc.
+            </p>
+            <p class="product-price" b>R$ 199,90</p>
+        </div>
+        <div class="purchase-options">
+            <input type="number" value="1" min="1">
+           <a href="index.html"> <button>Adicionar ao Carrinho</button> </a>
+        </div>
+        <div class="payment-options">
+            <h3>Opções de Pagamento:</h3>
+            <ul>
+                <li>Cartão de Crédito (até 12x)</li>
+                <li>Boleto Bancário</li>
+                <li>Pix</li>
+                <li>Paypal</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="comments-section">
+    <h2 style="font-size: 30px;">Comentários</h2>
+    <div class="comment" style="font-size: 25px;">
+        <p class="comment-author">Usuário 1</p>
+        <p class="comment-text" style="font-size: 20px;">Ótimo produto, super recomendo!</p>
+    </div>
+    <div class="comment">
+        <p class="comment-author" style="font-size: 25px;">Usuário 2</p>
+        <p class="comment-text" style="font-size: 20px;">A entrega foi rápida e o produto chegou em perfeitas condições.</p>
+    </div>
+    <!-- Adicione mais comentários aqui -->
+
+    <div class="comment-form">
+        <h3 style="font-size: 25px;">Deixe seu comentário:</h3>
+        <input type="text" placeholder="Seu nome">
+        <textarea rows="4" placeholder="Seu comentário"></textarea>
+        <button>Enviar Comentário</button>
+    </div>
+</div>
+
+</body>
+</html>
